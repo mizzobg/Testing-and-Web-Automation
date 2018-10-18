@@ -79,7 +79,7 @@ ExtentTest test;
 			workbook.write(end);
 		    end.close();
 		    
-		    assertEquals("Login Check","**Successful Login**", login.getResult());// Runs the test check to using function and comparing the text
+		    assertEquals("Login Check",constants.Expected_Results, login.getResult());// Runs the test check to using function and comparing the text
 		}
 		
 		
