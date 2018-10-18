@@ -7,4 +7,5 @@ public class constants {
 	public static final String File_TestData = "DemoSiteDDT.xlsx";
 	public static final String Firefox_Driver = "C:\\Users\\Admin\\Desktop\\geckodriver.exe";
 	public static final String Chrome_Driver = "C:\\Users\\Admin\\Desktop\\chromedriver.exe";
+	public static final String File_Report = "ReLogin.html";
 }

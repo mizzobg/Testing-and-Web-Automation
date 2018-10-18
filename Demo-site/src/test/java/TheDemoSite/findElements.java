@@ -21,7 +21,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class findElements {
-ExtentReports extent = new ExtentReports(constants.Path_Reports+"ReLogin.html", true);
+ExtentReports extent = new ExtentReports(constants.Path_Reports+constants.File_Report, true);
 
 ExtentTest test;
 
@@ -42,17 +42,7 @@ ExtentTest test;
 	
 	@Test
 	public void loginTest	() throws Exception  {
-//		FileInputStream file =null;
-//		try {
-//		file = new FileInputStream(constants.Path_TestData+constants.File_TestData);
-//		} catch(FileNotFoundException e) {}
-//		XSSFWorkbook workbook =null;
-//		try {
-//			  workbook = new XSSFWorkbook(file);
-//		} catch(IOException e) {}
-//		XSSFSheet sheet = workbook.getSheetAt(0);
-//		XSSFCell cell =sheet.getRow(0).getCell(0);
-//		System.out.println(cell.getStringCellValue());	
+	
 		FileInputStream file = new FileInputStream(constants.Path_TestData+constants.File_TestData);
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		XSSFSheet sheet = workbook.getSheetAt(0);
